@@ -21,6 +21,14 @@
     5
 */
 
+/*let i=0
+
+while(i < 6){
+
+  console.log(i)
+  i++
+
+}*/
 
 
 /*
@@ -29,7 +37,9 @@
   - Utilizando um for loop, faça o mesmo que foi pedido no exercício 01.
 */
 
-
+/*for(i = 0; i < 6; i++){
+  console.log(i)
+}*/
 
 /*
   03 - Comente o loop acima e:
@@ -42,7 +52,9 @@
   "Esta é a Xª vez que esta frase é exibida no console."
 */
 
-
+/*for(i = 0; i < 11; i++){
+  console.log(`Esta é a ${i}ª vez que esta frase é exibida no console.`)
+}*/
 
 /*
   04 - Comente o loop acima e:
@@ -54,7 +66,16 @@
   - Para ver se deu certo, exiba o upperCaseCities no console.
 */
 
+/*
 const cities = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais']
+
+let upperCaseCities = []
+
+for(i = 0; i < cities.length; i++){
+  upperCaseCities.push(cities[i].toUpperCase())
+}
+  console.log(upperCaseCities)
+*/
 
 /*
   05 - Comente o console.log acima e:
@@ -65,7 +86,18 @@ const cities = ['São Paulo', 'Rio de Janeiro', 'Minas Gerais']
     <li>João Grilo</li><li>Chicó</li><li>Rosinha</li>
 */
 
+/*
 const names = ['João Grilo', 'Chicó', 'Rosinha']
+
+let HTMLTemplate = ''
+
+for(i = 0; i < names.length; i++){
+
+  HTMLTemplate += `<li>${names[i]}</li>` // HTMLTemplate recebe tudo o que ela tem mais a string
+
+}
+console.log(HTMLTemplate)
+*/
 
 /*
   06 - Comente o console.log acima e:
@@ -75,8 +107,15 @@ const names = ['João Grilo', 'Chicó', 'Rosinha']
   - Exiba no console um boolean indicando se o total dessa soma é 337;
   - O console deve exibir true.
 */
-
+/*
 const numbers = ['91', '5', '30', '97', '83', '31']
+let sum = 0
+
+for(i = 0; i < numbers.length; i++){
+  sum += Number(numbers[i])
+}
+// console.log(sum === 337)
+*/
 
 /*
   07 - Comente o console.log acima.
@@ -102,3 +141,14 @@ const arrays = [
   [8, 32, 16],
   [2, 8, 4]
 ]
+
+let arraySum = 0
+
+for(let i = 0; i < arrays.length; i++){
+  for(let j = 0; j < arrays[i].length; j++){
+
+   arraySum += arrays[i][j]
+
+  }
+}
+console.log(arraySum)
