@@ -1,0 +1,15 @@
+
+Formulários existem para capturar algum tipo de informação do usuário, se eu tenho um formulário de login por exemplo, esse formulário existe para capturar o nome de 
+usuário ou email e a senha desse usuário.
+
+Um outro exemplo pode ser um formulário de feedback em que o usuário dá informações sobre a experiência dele em uma plataforma e para capturar essas informações, usamos
+eventos e principalmente eventos de submit, eventos de envio do formulário.
+
+O que acontece quando o usuário clica no botão de enviar abaixo do form, clicar nesse botão dispara não só o evento de clique no botão, mas também um evento de submit
+do form, nesse caso eu posso setar um listener de evento que reage ao envio das informações desse form, quando esse form for enviado posso capturar as informações que
+o usuário preencheu nos campos desse formulário.
+
+Outros tipos de eventos que podem ser usados em formulários são os eventos do teclado, nesse tipo de evento eu posso reagir quando o usuário pressiona ou solta uma 
+tecla.
+
+Expressões regulares são uma forma de validar o tipo de informação que um usuário insere no campo de um formulário.

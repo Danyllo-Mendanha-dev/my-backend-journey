@@ -9,6 +9,8 @@ const showFood = function(){
     console.log('Hambúrguer')
 }
 
+// Funções são blocos de códigos que realizam determinada ação
+// As funções podem ser invocada em qualquer ponto do código
 
 sayHi()
 
