@@ -1,9 +1,0 @@
-Lista com palavras reservadas da linguagem:
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords
-
-
-
-Repositório do curso:
-
-https://github.com/roger-melo-treinamentos/curso-de-js-roger-melo
